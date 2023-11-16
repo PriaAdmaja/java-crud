@@ -43,4 +43,9 @@ public class Users {
         this.setEmail(email);
     }
     
+    @Override
+    public String toString() {
+        return "Users [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
+    }
+    
 }
